@@ -230,8 +230,10 @@ $(document).ready(function () {
     $("#user_info").on('click', () => {
         $("#user_info_ul").css({
             "position": "fixed", 
-            "inset": "0px -40px auto 350px",
             "margin": "0px",
+            "right": "-50px",
+            "top": "0",
+            "width": "200px",
             "transform": "translate(-61px, 37px)",
             "display": "block"
         })
