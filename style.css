@@ -80,6 +80,9 @@ td.table_input textarea {
     display: none;
     z-index: 99;
 }
+#dropdown_list .nav-pills .nav-link.active {
+    background-color: #2d486f;
+}
 
 @media screen and (max-width: 992px) {
     .custom_select {
