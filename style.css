@@ -1,0 +1,89 @@
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+    z-index: 9999;
+    width: 100vw;
+    background-color: #4e3e3e;
+    color: white;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: #ddd;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+.input_focus {
+    outline: none !important;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+td.table_input {
+    padding: 0 !important;
+}
+
+td.table_input input,
+td.table_input textarea {
+    padding: 5px;
+    outline: none !important;
+    border: none !important;
+}
+
+.w_150 {
+    width: 150px;
+}
+
+#v-pills-tab{
+    width: 100%;
+    padding:10px;
+    border:1px solid #ccc;
+    box-sizing: border-box;
+}
+#dropdown_list{
+    display: none;
+    z-index: 99;
+}
+
+@media screen and (max-width: 992px) {
+    .custom_select {
+        width: 100%!important;
+        margin-left: 150px;
+    }
+}
